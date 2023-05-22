@@ -1,0 +1,81 @@
+
+/* ========================frist-section-1============================*/
+
+
+.container{
+    box-shadow: 0px 0px 10px 6px #e7e3e3; 
+    border-radius: 120px;
+}
+.container {
+    padding: 0;
+}
+.text h1 {
+    color: #6e67b1;
+    font-weight: 900;
+    font-size: 36px;
+}
+.text h4 {
+    color: #4b4b4b;
+    position: relative;
+    font-size: 23px;
+}
+.text h4::after {
+    content: "";
+    position: absolute;
+    top: 44px;
+    left: 234px;
+    height: 4px;
+    width: 8%;
+    background-color: #3f3f3f;
+}
+.all-image img{
+    font-size: 10px
+}
+.all-image span{
+    font-size: 20px;
+}
+.left{
+    margin-left: 20px;
+}
+.frist-logo img{
+    width: 30px;
+    margin-right: 10px;
+}
+.frist-logo{
+    margin: 8px 0px;
+}
+
+/*  =========================social-icon-section-2=====================================  */
+
+ul.all-icon{
+    padding-left: 0;
+}
+
+.social-icon{}
+.social-icon ul{
+    padding-left: 0;
+    margin-top: 20px;
+}
+.social-icon ul li{
+    list-style: none;
+}
+.social-icon ul li a{
+   padding-right: 15px;
+    display: inline-block;
+
+}
+.social-icon ul li a img{
+    width: 60px;
+    
+}
+
+.social-image img {
+    max-width: 289px;
+}
+/* ==================================image-last-section-3============================ */
+.footer-section {
+    background-color:#eaeaea;
+    font-size: 26px;
+    padding: 30px;
+    border-radius: 0px 0px 120px 120px;
+}
